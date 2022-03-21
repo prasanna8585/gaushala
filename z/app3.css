@@ -1,0 +1,31 @@
+h2 {
+    color: darkorange;
+    text-shadow: 2px 2px 5px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 0px;
+    border-radius: 1px;
+  }
+  .header{
+          margin-top: 5px;
+          overflow: auto;
+          background: #ffffff;
+          color: #ff9000;
+  }
+  h1{
+      margin-bottom: 0%;
+      text-align: center;
+      padding:12px;
+          text-shadow: 2px 2px 5px;
+          color: #ff9000;
+  }
+  img{
+    margin: auto;
+}

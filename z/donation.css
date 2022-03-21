@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 80px;
+    padding: 1.2em 0;
+    color:orangered;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+}
+p.head{
+    padding:2%;
+    font-size: 19px;
+}
+
+b.adopt{
+    padding: 2%;
+    font-size: 20px;
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+button.don{
+   padding: 1em 6em;
+    background: none;
+    font-size: 1em;
+	transition: all 0.25s;
+	border-radius: 15px;
+    color: brown;
+    outline: none;
+}
+button.don:hover{
+    color: white;
+    background: crimson;
+    border-radius: 15px;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    /* transform: translateY(-0.25em); */
+}
+
+td{
+    width: 1010px;
+    text-align: center;
+}
+img{
+    object-fit:scale-down;
+}

@@ -1,0 +1,18 @@
+img.prof{
+    border-radius: 50%;
+    display: block;
+    margin-top: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+h4{
+    font-weight: bold;
+}
+section{
+    background-color: snow;
+}
+
+
+/* .navbar{
+    background: #ffc107;
+} */

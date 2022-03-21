@@ -1,0 +1,159 @@
+body{
+   background-color:snow;
+    font-family: Nunito, verdena;
+    
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.25rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+    /* transition: all 0.25s; */
+}
+.dropdown-menu
+{
+    margin-left: 35%;
+    margin-top: 0%;
+    font-weight: 100;    
+
+}
+
+.dropdown-menu:hover
+{
+    color: #EA1C2C;
+}
+
+li.btn:hover
+{
+   color: #EA1C2C;;
+}
+
+li.btn{
+    color:white;
+    font-weight: 100;    
+
+}
+
+.language
+{
+    margin-left: 55%;
+    margin-top: 0%;
+    font-weight: 100;    
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+.navSeparator{
+    color:white !important;
+}
+
+.navSeparator:hover{
+    color:white !important;
+}
+
+.navbarPersistent {
+    background: #ffc107 !important;
+    /* transition: background 500ms; */
+}
+
+.navbar.scrolled {
+    background: #ffc107;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+section{
+    margin-top: 3%;
+    font-size: 19px;
+/*    background-color: ivory;*/
+}
+
+h2{
+    text-shadow: 2px 2px 5px;
+}
+
+
+.adjust{
+    margin-top: 3%;
+}
+
+
+.intro{
+    background-color: darkorange;
+    padding-left: 2%;
+}
+footer{
+    background-color: darkorange;
+}
+h3{
+    margin-top: 2rem;
+    text-align: center;
+    color:coral;
+    text-shadow: 2px 2px 5px;
+}
+h3:hover{
+    color:darkred;
+}
+
+button.test{
+	background:none;
+	color: #ffa260;
+	border: 2px solid;
+	font-size: 1em;
+	transition: all 0.25s;
+	border-radius: 20px;
+    height: 60px;
+
+}
+button.test:hover{
+	border-color: #f1ff5c;
+	color: #f1ff5c;
+	box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+	transform: translateY(-0.25em);
+	border-radius: 20px;
+}
+footer{
+    background-color: brown;
+}
+section.hel{
+    margin-left: 8px;
+}
+
+@media(max-width: 960px){
+    nav > a > h2{
+        font-size: 1.50rem;
+
+    }
+    .navSeparator{
+        display: none;
+    }
+}
+.scanner
+{
+    margin-top: 10%;
+    width: 27%;
+    height: 77%;
+}
